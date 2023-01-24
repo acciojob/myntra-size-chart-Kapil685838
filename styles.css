@@ -8,7 +8,20 @@ table {
 }
 table th {
 	text-align: start;
+	background: red;
 }
 table td {
 	text-align: end;
+}
+table td:first-child {
+	text-align: left;
+}
+.row-1 {
+	background: pink;
+}
+.row-2 {
+	background: whitesmoke;
+}
+.row-3 {
+	background: lightgrey;
 }
